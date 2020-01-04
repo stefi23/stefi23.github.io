@@ -79,11 +79,8 @@ img {
 }
 
 p {
-  /* font-family: "Lucida Grande"; */
-  font-family: "Roboto", sans-serif;
-  /* font-family: "Nanum Gothic", sans-serif; */
+  font-family: "Open Sans", sans-serif;
   /* font-weight: 700; */
-  /* font-family: "Gaegu", cursive; */
   color: #581845;
   font-size: 14px;
 }
@@ -108,6 +105,14 @@ h2 {
   margin-bottom: 3rem;
 }
 
+h3 {
+  color: #581845;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
 h6,
 h5 {
   color: #581845;
@@ -129,6 +134,7 @@ h5 {
   color: #581845 !important;
   padding: 15px !important;
   font-family: "Roboto", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
 }
 
 .navbar-expand-lg .navbar-collapse {
