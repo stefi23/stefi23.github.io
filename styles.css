@@ -59,6 +59,7 @@ img {
   margin-left: auto;
   padding: 0px;
   font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
 }
 
 .footer-color {
@@ -89,7 +90,12 @@ p {
 h1 {
   color: #581845;
   /* font-family: "PT Sans", sans-serif; */
-  font-family: "Gaegu", cursive;
+  /* font-family: "Gaegu", cursive; */
+
+  font-family: "Open Sans", sans-serif;
+  /* font-family: "Gochi Hand", cursive; */
+  /* font-family: 'Nanum Pen Script', cursive; */
+  font-family: "Indie Flower", cursive;
   font-weight: 700;
   font-size: 45px;
   line-height: 35px;
