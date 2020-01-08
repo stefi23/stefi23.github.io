@@ -92,7 +92,7 @@ h1 {
   /* font-family: "PT Sans", sans-serif; */
   /* font-family: "Gaegu", cursive; */
 
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   /* font-family: "Gochi Hand", cursive; */
   /* font-family: 'Nanum Pen Script', cursive; */
   font-family: "Indie Flower", cursive;
@@ -105,7 +105,8 @@ h1 {
 h2 {
   color: #581845;
   /* font-family: "PT Sans", sans-serif; */
-  font-family: "Gaegu", cursive;
+  /* font-family: "Gaegu", cursive; */
+  font-family: "Indie Flower", cursive;
   font-weight: 700;
   font-size: 30px;
   line-height: 35px;
@@ -198,6 +199,7 @@ a:visited {
 
 #center {
   text-align: center;
+  font-family: "Gaegu", cursive !important;
 }
 
 #survey-form {
