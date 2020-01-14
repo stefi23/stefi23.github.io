@@ -303,3 +303,19 @@ textarea {
   /* font-weight: 700; */
   color: #581845;
 }
+
+.fa-angle-double-up {
+  font-size: 20px;
+}
+
+.backtoplink:hover {
+  color: #8f3774 !important;
+}
+
+.backtoplink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
