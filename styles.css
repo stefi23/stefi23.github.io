@@ -323,3 +323,7 @@ textarea {
   text-decoration: none !important;
   cursor: pointer !important;
 }
+
+.text-gray {
+  color: #51575e;
+}
