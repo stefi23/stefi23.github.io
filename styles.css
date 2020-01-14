@@ -287,11 +287,13 @@ textarea {
   background: #581845 !important;
   color: white !important;
   padding: 10px 12px !important;
-  font-size: 1rem !important;
+  font-size: 14px !important;
 }
 
 .btn-bordo:hover {
-  background: #8f3774 !important;
+  background: #77205d !important;
+  color: #ffffff !important;
+  /* background: #8f3774 !important; */
   text-decoration: none;
 }
 
@@ -311,7 +313,7 @@ textarea {
 }
 
 .backtoplink:hover {
-  color: #8f3774 !important;
+  color: #77205d !important;
 }
 
 .backtoplink {
