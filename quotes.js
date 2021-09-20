@@ -1,0 +1,17 @@
+export const quotes = [
+  `“You could leave life right now. Let that determine what you do and say and think.” - Marcus Aurelius`,
+  `“The important thing is not to stop questioning. Curiosity has its own reason for existing.” - Albert Einstein.`,
+  `“Whomever you become, whatever you make yourself into, that is who you always were.” ― Tara Westover, Educated`,
+  `“Often when you think you're at the end of something, you're at the beginning of something else.” ― Fred Rogers`,
+  `"If you don't have a seat at the table, bring a folding chair." Shirley Chisholm`,
+  `“A person's success in life can usually be measured by the number of uncomfortable conversations he or she is willing to have.” ― Timothy Ferriss`,
+  `"Most things—including public speaking—can be mastered if you’re willing to put in the time and energy." - Tony Robbins`,
+  `"Remember to enjoy being in this world, being able to do what you are doing." - Stephen Schwartz`,
+  `“In the long run, the sharpest weapon of all is a kind and gentle spirit.” ― Anne Frank, The Diary of Anne Frank`,
+  `“The secret of getting ahead is getting started. The secret of getting started is breaking your complex overwhelming tasks into small manageable tasks, and starting on the first one.” ― Mark Twain`,
+  `It seems to me that the less I fight my fear, the less it fights back. If I can relax, fear relaxes, too.” ― Elizabeth Gilbert, Big Magic: Creative Living Beyond Fear`,
+  `“When you follow your bliss...doors will open where you would not have thought there would be doors, and where there wouldn't be a door for anyone else. ” ― Joseph Campbell`,
+  `“The big question is whether you are going to be able to say a hearty yes to your adventure ” ― Joseph Campbell`,
+  `“And now here is my secret, a very simple secret: It is only with the heart that one can see rightly; what is essential is invisible to the eye.” ― Antoine de Saint-Exupéry, The Little Prince`,
+  `“It is not that we have so little time but that we lose so much. ... The life we receive is not short but we make it so; we are not ill provided but use what we have wastefully.” ― Seneca, On the Shortness of Life`,
+];
