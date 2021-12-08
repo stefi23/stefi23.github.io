@@ -1,9 +1,15 @@
+:root {
+  --primary-color: #581845;
+  --primary-bg-color: #352d39;
+  --secondary-bg-color: #fcfcfc;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #352d39;
+  background-color: var(--primary-bg-color);
   text-align: center;
 }
 
@@ -23,12 +29,15 @@ body {
   text-align: left;
 }
 
-.content-box {
-  margin: 10px 0px;
-  padding: 60px 60px;
-  background-color: #fcfcfc;
+.content-box,
+.content-box-main {
+  background-color: var(--secondary-bg-color);
   border-radius: 4px;
-  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  margin: 10px 0px;
+}
+
+.content-box {
+  padding: 60px 60px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -38,11 +47,7 @@ body {
 }
 
 .content-box-main {
-  margin: 10px 0px;
   padding: 40px 40px;
-  background-color: #fcfcfc;
-  border-radius: 4px;
-  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
   align-items: center;
   justify-content: center;
   display: flex;
@@ -68,7 +73,7 @@ img {
 }
 
 .footer-color {
-  background: #dfe0e1;
+  background: var(--secondary-bg-color);
   padding: 10px;
   border-radius: 4px;
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
@@ -87,12 +92,12 @@ img {
 
 p {
   font-family: "Open Sans", sans-serif;
-  color: #581845;
+  color: var(--primary-color);
   font-size: 14px;
 }
 
 h1 {
-  color: #581845;
+  color: var(--primary-color);
   font-family: "Indie Flower", cursive;
   font-weight: 700;
   font-size: 40px;
@@ -100,7 +105,7 @@ h1 {
 }
 
 h2 {
-  color: #581845;
+  color: var(--primary-color);
   font-family: "Indie Flower", cursive;
   font-weight: 700;
   font-size: 30px;
@@ -109,7 +114,7 @@ h2 {
 }
 
 h3 {
-  color: #581845;
+  color: var(--primary-color);
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   margin-bottom: 0px;
@@ -118,23 +123,23 @@ h3 {
 
 .card-title {
   margin-bottom: 0.75rem !important;
-  color: #581845;
+  color: var(--primary-color);
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px !important;
 }
 
 .navbar-light .nav-item.active .nav-link {
-  color: #581845;
+  color: var(--primary-color);
   font-weight: bold;
 }
 
 .navbar-light .nav-item .nav-link {
-  color: #581845;
+  color: var(--primary-color);
 }
 
 .nav-link {
-  color: #581845 !important;
+  color: var(--primary-color) !important;
   padding: 15px !important;
   font-size: 15px;
   font-weight: 500;
@@ -162,11 +167,11 @@ h3 {
 }
 
 a:link {
-  color: #581845;
+  color: var(--primary-color);
 }
 
 a:visited {
-  color: #581845;
+  color: var(--primary-color);
 }
 
 .list-inline-center i:hover {
@@ -196,45 +201,6 @@ a:visited {
   font-family: "Gaegu", cursive !important;
 }
 
-#survey-form {
-  background-color: white;
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-  display: grid;
-  grid-template-columns: 0.5fr 1fr;
-  grid-template-rows: repeat(9, 100px);
-  justify-items: center;
-  row-gap: 20px;
-  font-family: "Lucida Grande";
-  color: #581845;
-  font-size: 14px;
-}
-
-form > label {
-  justify-self: start;
-  text-align: right;
-}
-input {
-  justify-self: start;
-}
-
-input:focus {
-  background-color: white;
-  outline: 3px solid #a3dbde;
-}
-
-textarea:focus {
-  background-color: white;
-  outline: 3px solid #a3dbde;
-}
-
-textarea {
-  justify-self: start;
-  width: 70%;
-  height: 50px;
-}
-
 .devicons {
   font-size: 4em;
 }
@@ -245,7 +211,7 @@ textarea {
 }
 
 .btn-bordo {
-  background: #581845 !important;
+  background: var(--primary-color) !important;
   color: white !important;
   padding: 10px 12px !important;
   font-size: 14px !important;
@@ -257,14 +223,9 @@ textarea {
   text-decoration: none;
 }
 
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .fontcolor {
   font-family: "Open Sans", sans-serif;
-  color: #581845;
+  color: var(--primary-color);
 }
 
 .fa-angle-double-up {
